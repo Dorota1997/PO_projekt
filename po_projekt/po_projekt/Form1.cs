@@ -19,9 +19,9 @@ namespace po_projekt
 
         private void play_button_Click(object sender, EventArgs e)
         {
-            Form2 przejscie = new Form2();
-            this.Hide();                    // sposob aby ukryc biezace okno
-            przejscie.Show();               // sposob aby otworzyc okno z Form2
+            Form2 przejscie = new Form2();      // stworzenie obiektu Form2 (formularza 2)
+            this.Hide();                        // sposob aby ukryc biezace okno (czyli menu)
+            przejscie.Show();                   // sposob aby otworzyc okno z Form2 
         }
     }
 }
