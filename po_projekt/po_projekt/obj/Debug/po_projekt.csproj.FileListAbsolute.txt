@@ -1,0 +1,11 @@
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\bin\Debug\po_projekt.exe.config
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\bin\Debug\po_projekt.exe
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\bin\Debug\po_projekt.pdb
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\obj\Debug\po_projekt.csprojResolveAssemblyReference.cache
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\obj\Debug\po_projekt.Properties.Resources.resources
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\obj\Debug\po_projekt.csproj.GenerateResource.Cache
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\obj\Debug\po_projekt.csproj.CoreCompileInputs.cache
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\obj\Debug\po_projekt.exe
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\obj\Debug\po_projekt.pdb
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\obj\Debug\po_projekt.Form1.resources
+C:\Program Files\Git\bin\PO_projekt\po_projekt\po_projekt\obj\Debug\po_projekt.Form2.resources
