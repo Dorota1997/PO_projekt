@@ -14,6 +14,11 @@ namespace po_projekt
     {
         Random random = new Random();
 
+        List<string> ikonki = new List<string>()
+        {
+            "b", "b", "f", "f", "H", "H", "N", "N", "!", "!", "$", "$", "O", "O", "v", "v"
+        };
+
         public Form2()
         {
             InitializeComponent();
