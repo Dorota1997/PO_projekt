@@ -12,11 +12,13 @@ namespace po_projekt
 {
     public partial class Form2 : Form
     {
+        Random random = new Random();
+
         public Form2()
         {
             InitializeComponent();
         }
 
-        // tu bedzie moja gra
+        
     }
 }
