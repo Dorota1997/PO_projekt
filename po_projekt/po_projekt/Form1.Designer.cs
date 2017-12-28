@@ -30,6 +30,7 @@
         {
             this.play_button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.wyjscie_przycisk = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // play_button
@@ -54,12 +55,25 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "MEMOGame";
             // 
+            // wyjscie_przycisk
+            // 
+            this.wyjscie_przycisk.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.wyjscie_przycisk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.wyjscie_przycisk.Location = new System.Drawing.Point(195, 133);
+            this.wyjscie_przycisk.Name = "wyjscie_przycisk";
+            this.wyjscie_przycisk.Size = new System.Drawing.Size(121, 46);
+            this.wyjscie_przycisk.TabIndex = 2;
+            this.wyjscie_przycisk.Text = "Wyjście";
+            this.wyjscie_przycisk.UseVisualStyleBackColor = false;
+            this.wyjscie_przycisk.Click += new System.EventHandler(this.wyjdz_z_gry);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(521, 313);
+            this.Controls.Add(this.wyjscie_przycisk);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.play_button);
             this.Name = "Form1";
@@ -74,6 +88,7 @@
 
         private System.Windows.Forms.Button play_button;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button wyjscie_przycisk;
     }
 }
 

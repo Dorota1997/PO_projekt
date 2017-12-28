@@ -24,6 +24,12 @@ namespace po_projekt
             this.Hide();                        // sposob aby ukryc biezace okno (czyli menu)
             przejscie.Show();                   // sposob aby otworzyc okno z Form2 
         }
-#endregion
+        #endregion
+        #region Przycisk wyjście (kliknięcie)
+        private void wyjdz_z_gry(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        #endregion
     }
 }
