@@ -16,5 +16,7 @@ namespace po_projekt
         {
             InitializeComponent();
         }
+
+        // tu bedzie moja gra
     }
 }

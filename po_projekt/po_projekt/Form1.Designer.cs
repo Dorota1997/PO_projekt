@@ -50,9 +50,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(107, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(293, 55);
+            this.label1.Size = new System.Drawing.Size(304, 55);
             this.label1.TabIndex = 1;
-            this.label1.Text = "TYTUL GRY";
+            this.label1.Text = "MEMOGame";
             // 
             // Form1
             // 
@@ -64,7 +64,7 @@
             this.Controls.Add(this.play_button);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Projekt";
+            this.Text = "MEMOGame";
             this.ResumeLayout(false);
             this.PerformLayout();
 
