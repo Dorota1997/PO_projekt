@@ -24,13 +24,36 @@ namespace po_projekt
         public Form2()
         {
             InitializeComponent();
-            AssignIconsToSquares();
+            Wprowadz_elementy_do_kwadratow();
         }
 
-        private void AssignIconsToSquares()
+        private void klik(object sender, EventArgs e)
+        {
+            Label klik = sender as Label;
+
+            if (klik == null)
+                return;
+
+            if (klik.ForeColor == Color.Black)
+                return;
+
+            if (pierwszy_klik == null)
+            {
+                pierwszy_klik = klik;
+                pierwszy_klik.ForeColor = Color.Black;
+                return;
+            }
+
+            drugi_klik = klik;
+            drugi_klik.ForeColor = Color.Black;
+
+
+        }
+
+        private void Wprowadz_elementy_do_kwadratow()
         {
             Label label;
-            int randomNumer;
+            int losowy_element;
 
             for(int i = 0; i < tableLayoutPanel1.Controls.Count; i++)
             {
@@ -41,10 +64,10 @@ namespace po_projekt
                 else
                     continue;
 
-                randomNumer = random.Next(0, ikonki.Count);
-                label.Text = ikonki[randomNumer];
+                losowy_element = random.Next(0, ikonki.Count);
+                label.Text = ikonki[losowy_element];
 
-                ikonki.RemoveAt(randomNumer);
+                ikonki.RemoveAt(losowy_element);
             }
         }
         
