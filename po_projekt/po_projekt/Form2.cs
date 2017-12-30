@@ -47,6 +47,19 @@ namespace po_projekt
             drugi_klik = klik;
             drugi_klik.ForeColor = Color.Black;
 
+            timer1.Start();
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+
+            pierwszy_klik.ForeColor = pierwszy_klik.BackColor;
+            drugi_klik.ForeColor = drugi_klik.BackColor;
+
+            pierwszy_klik = null;
+            drugi_klik = null;
 
         }
 
