@@ -52,7 +52,7 @@ namespace po_projekt
 
             Sprawdz_zwyciestwo();
 
-            if (pierwszy_klik == drugi_klik)
+            if (pierwszy_klik.Text == drugi_klik.Text)
             {
                 pierwszy_klik = null;
                 drugi_klik = null;
@@ -77,7 +77,7 @@ namespace po_projekt
                     return;
 
             }
-            MessageBox.Show("Odkryłeś wszystkie obrazki. Gratuulacje!");
+            MessageBox.Show("Odkryłeś wszystkie obrazki. Gratulacje!");
             Close();
         }
         private void timer1_Tick(object sender, EventArgs e)
