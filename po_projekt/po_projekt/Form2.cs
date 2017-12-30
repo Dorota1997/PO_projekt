@@ -29,6 +29,9 @@ namespace po_projekt
 
         private void klik(object sender, EventArgs e)
         {
+            if (pierwszy_klik != null && drugi_klik != null)
+                return;
+
             Label klik = sender as Label;
 
             if (klik == null)
@@ -47,10 +50,36 @@ namespace po_projekt
             drugi_klik = klik;
             drugi_klik.ForeColor = Color.Black;
 
-            timer1.Start();
+            Sprawdz_zwyciestwo();
 
+            if (pierwszy_klik == drugi_klik)
+            {
+                pierwszy_klik = null;
+                drugi_klik = null;
+            }
+
+            else
+            {
+                timer1.Start();
+            }
+              
         }
 
+        private void Sprawdz_zwyciestwo()
+        {
+            Label label;
+            
+            for (int i = 0; i < tableLayoutPanel1.Controls.Count; i++)
+            {
+                label = tableLayoutPanel1.Controls[i] as Label;
+
+                if (label != null && label.ForeColor == label.BackColor)
+                    return;
+
+            }
+            MessageBox.Show("Odkryłeś wszystkie obrazki. Gratuulacje!");
+            Close();
+        }
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Stop();
