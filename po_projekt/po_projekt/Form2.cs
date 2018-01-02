@@ -16,7 +16,8 @@ namespace po_projekt
 
         List<string> ikonki = new List<string>()
         {
-            "b", "b", "f", "f", "H", "H", "N", "N", "!", "!", "$", "$", "O", "O", "v", "v"
+            "b", "b", "f", "f", "H", "H", "N", "N", "!", "!", "$", "$", "O", "O",
+            "v", "v", ",", ",", "k", "k", "z", "z", "w", "w", "t", "t", "p", ""
         };
 
         Label pierwszy_klik, drugi_klik;

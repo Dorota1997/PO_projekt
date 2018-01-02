@@ -37,7 +37,7 @@
             // 
             this.play_button.BackColor = System.Drawing.Color.Gray;
             this.play_button.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.play_button.Location = new System.Drawing.Point(103, 313);
+            this.play_button.Location = new System.Drawing.Point(185, 313);
             this.play_button.Name = "play_button";
             this.play_button.Size = new System.Drawing.Size(121, 46);
             this.play_button.TabIndex = 0;
@@ -50,7 +50,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.LightCoral;
-            this.label1.Location = new System.Drawing.Point(83, 28);
+            this.label1.Location = new System.Drawing.Point(165, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(380, 232);
             this.label1.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             this.wyjscie_przycisk.BackColor = System.Drawing.Color.Gray;
             this.wyjscie_przycisk.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.wyjscie_przycisk.Location = new System.Drawing.Point(342, 313);
+            this.wyjscie_przycisk.Location = new System.Drawing.Point(424, 313);
             this.wyjscie_przycisk.Name = "wyjscie_przycisk";
             this.wyjscie_przycisk.Size = new System.Drawing.Size(121, 46);
             this.wyjscie_przycisk.TabIndex = 2;
@@ -73,7 +73,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(534, 511);
+            this.ClientSize = new System.Drawing.Size(684, 661);
             this.Controls.Add(this.wyjscie_przycisk);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.play_button);
