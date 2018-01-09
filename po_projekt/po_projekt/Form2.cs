@@ -29,6 +29,11 @@ namespace po_projekt
 
         private void Klik(object sender, EventArgs e)
         {
+            if (pierwsze_klikniecie != null && drugie_klikniecie != null)
+            {
+                return;
+            }
+
             Label KlikLabel = sender as Label;
 
             if (KlikLabel == null)
@@ -48,6 +53,49 @@ namespace po_projekt
                 return;
             }
 
+            drugie_klikniecie = KlikLabel;
+            drugie_klikniecie.ForeColor = Color.Black;
+
+            Sprawdz_zwyciezce();
+
+            if (pierwsze_klikniecie.Text == drugie_klikniecie.Text)
+            {
+                pierwsze_klikniecie = null;
+                drugie_klikniecie = null;
+            }
+            else
+            {
+                timer1.Start();
+            }
+        }
+
+        private void Sprawdz_zwyciezce()
+        {
+            Label label;
+
+            for (int i = 0; i < tableLayoutPanel1.Controls.Count; i++)
+            {
+                label = tableLayoutPanel1.Controls[i] as Label;
+
+                if (label != null && label.ForeColor == label.BackColor)
+                {
+                    return;
+                }
+            }
+
+            MessageBox.Show("Znalazłeś wszystkie pary! Gratulacje! :)");
+            Close();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+
+            pierwsze_klikniecie.ForeColor = pierwsze_klikniecie.BackColor;
+            drugie_klikniecie.ForeColor = drugie_klikniecie.BackColor;
+
+            pierwsze_klikniecie = null;
+            drugie_klikniecie = null;
 
         }
 
