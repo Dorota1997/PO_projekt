@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace po_projekt
 {
-    public partial class Form2 : Form
+    public partial class MEMO : Form
     {
         Random random = new Random();
 
@@ -21,7 +21,7 @@ namespace po_projekt
 
         Label pierwsze_klikniecie, drugie_klikniecie;
 
-        public Form2()
+        public MEMO()
         {
             InitializeComponent();
             obrazki_do_kwadraciokow();

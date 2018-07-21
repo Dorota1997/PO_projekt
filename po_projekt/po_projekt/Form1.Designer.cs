@@ -36,6 +36,8 @@
             // play_button
             // 
             this.play_button.BackColor = System.Drawing.Color.Gray;
+            this.play_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray;
+            this.play_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.play_button.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.play_button.Location = new System.Drawing.Point(93, 313);
             this.play_button.Name = "play_button";
@@ -59,6 +61,8 @@
             // wyjscie_przycisk
             // 
             this.wyjscie_przycisk.BackColor = System.Drawing.Color.Gray;
+            this.wyjscie_przycisk.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray;
+            this.wyjscie_przycisk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.wyjscie_przycisk.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.wyjscie_przycisk.Location = new System.Drawing.Point(332, 313);
             this.wyjscie_przycisk.Name = "wyjscie_przycisk";
@@ -74,9 +78,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(534, 511);
+            this.ControlBox = false;
             this.Controls.Add(this.wyjscie_przycisk);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.play_button);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MEMO";
