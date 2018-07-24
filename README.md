@@ -2,7 +2,7 @@
 
 Menu                                              |   Gra
 :------------------------------------------------:|:------------------------------------------------:
-![error](https://github.com/Dorota1997/PO_projekt/blob/master/images/menu.jpg) | ![error](https://github.com/Dorota1997/PO_projekt/blob/master/images/gra.jpg)
+![error](https://github.com/Dorota1997/PO_projekt/blob/master/images/menu.jpg) | ![error](https://github.com/Dorota1997/PO_projekt/blob/master/images/gra.gif)
 
 
 #### Memo Game ####
